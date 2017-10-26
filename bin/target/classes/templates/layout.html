@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head>
+  <title>まつがおか耳鼻咽喉科</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="/vendor/bootstrap-3.3.5/css/bootstrap.min.css" th:href="@{/vendor/bootstrap-3.3.5/css/bootstrap.min.css}" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- container start -->
+  <div class="container">
+    <div class="page-header">
+      <h1></h1>
+    </div>
+
+    <!-- navi start -->
+    <div class="row navi">
+      <div class="col-md-12">
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="/content1" th:href="@{/content1}">content1</a></li>
+          <li role="presentation"><a href="/content2" th:href="@{/content2}">content2</a></li>
+        </ul>
+      </div>
+    </div>
+   </div>
+    <!-- navi end -->
+
+    <div class="row">
+      <div class="col-md-12 well">
+        <h3>dummy</h3>
+        <p th:text="${gmsg1}"></p>
+        <p th:text="${gmsg2}"></p>
+        <p th:text="${gmsg3}"></p>
+      </div>
+    </div>
+  <script src="/vendor/jquery/jquery-1.11.3.js" th:src="@{/vendor/jquery/jquery-1.11.3.js}"></script>
+  <script src="/vendor/bootstrap-3.3.5/js/bootstrap.js" th:src="@{/vendor/bootstrap-3.3.5/js/bootstrap.js}"></script>
+</body>
+</html>

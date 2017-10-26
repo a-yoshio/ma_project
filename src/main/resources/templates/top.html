@@ -4,5 +4,36 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorator="layout">
 <body>
+	<div layout:fragment="main">
+	<div class="main">
+	 	<div class="top_img">
+	 		<img class="top_img" th:src="@{/img/flower_img.jpg}"/>
+	 	</div>
+	</div>
+	<div class="consultation_day">
+		<h3>診察費</h3>
+		<table>
+			<tr>
+				<td>月</td>
+				<td>火</td>
+				<td>水</td>
+				<td>木</td>
+				<td>金</td>
+				<td>土</td>
+				<td>日</td>
+			</tr>
+			<tr>
+				<td>〇</td>
+				<td>〇</td>
+				<td>〇</td>
+				<td>〇</td>
+				<td>〇</td>
+				<td>〇</td>
+				<td>×</td>
+				
+			</tr>
+		</table>
+		</div>
+	</div>
 </body>
 </html>
