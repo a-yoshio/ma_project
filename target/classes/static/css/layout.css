@@ -1,13 +1,25 @@
 @charset "UTF-8";
 
+body{
+	margin: 0;
+}
+
 .header{
 	width: 100%;
-	margin: 0 10% 0 10%;
+	margin: 0;
+	background-color: #e1fae1;
+	text-align: center;
 }
 
 .main{
+	display: block;
 	width: 970px;
 	margin: 30px auto 40px;
+	height: 850px;
+}
+
+h1{
+	text-align: center;
 }
 
 .footer{
@@ -16,7 +28,9 @@
 
 .data{
 	width: 40%;
+	margin-left: auto; 
 	float: right;
+	text-align: left;
 }
 
 .logo{
@@ -41,6 +55,29 @@ div.detail{
 	margin: 0 10% 0 10%;
 }
 
-.copy_right{
+.copyright{
 	text-align: center;
 }
+
+th,td{
+	text-align: left;
+}
+
+footer{
+	clear: both;
+	background-color: #e1fae1;
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 10px;
+	height: 100px;
+}
+
+.sitemap-td{
+	width: 100px;
+	text-align: center;
+}
+
+.title{
+	background-color: #f5f5f5;
+}
+

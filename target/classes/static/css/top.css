@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.title{
+	background-color: #f5f5f5;
+}
+
+.schedule,.access{
+	display: box;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+access{
+	display: flex;
+}
+
+.schedule-table{
+	border-collapse: collapse;
+	color: #555;
+	background-color: #ffffe6;
+	width: 99%;
+}
+
+.schedule-table, .schedule-th, .schedule-td{
+	border: 1px solid #d4e0ee;
+	color: #555;
+}
+
+.schedule-td,.schedule-th{
+	padding: 5px;
+	width: 10px;
+}
+
+#map, .access-table {
+        width: 50%;
+        margin-right: auto;
+        height: 200px;
+        float: left;
+      }
+
+#map{
+	background-color: grey;
+}
+
+
