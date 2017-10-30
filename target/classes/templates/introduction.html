@@ -5,10 +5,22 @@
       layout:decorator="layout">
 <body>
 	<div layout:fragment="main" class="main">
-		<div class="main">
-			<h1>院内紹介</h1>
-			<img th:src="">
+	<h1>院内紹介</h1>
+	<img th:src="@{/img/nagisadoctor.jpg}" class="doctor-img"/>
+			<table  class="doctor-profile">
+				<thead><tr><td>医院長プロフィール</td></tr></thead>
+				<tbody><tr><td>星野ナギサ</td></tr></tbody>
+				<tbody><tr><td>資格・所属・学歴</td></tr></tbody>
+					<tr><td>・昭和大学医学部卒業・医学博士</td></tr>
+					<tr><td>・関東労災病院	</td></tr>
+					<tr><td>・総合高津中央病院耳鼻咽喉科医長</td></tr>
+					<tr><td>・日本耳鼻咽喉科学会専門医</td></tr>
+					<tr><td>・日本聴覚医学会</td></tr>
+			</table>
+		<div class="home-button">
+			<a th:href="@{/}">ホーム</a>
 		</div>
+		<link rel="stylesheet" th:href="@{/css/introduction.css}"/>
 	</div>
 </body>
 </html>
