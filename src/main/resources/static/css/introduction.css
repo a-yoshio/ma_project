@@ -1,13 +1,37 @@
 @charset "UTF-8";
 
+.doctor-profile{
+	display: flex;
+	
+}
 .doctor-img{
 	width: 30%;
-	margin-right: auto;
-
 }
 
 table.doctor-profile{
 	witdh: 40%;
-	margin-left: auto;
 }
 
+
+.home-block{
+	text-align: center;
+	width: 30px;
+}
+
+.home-button{
+	width: 80px;
+	height: auto;
+	margin-left: 50%;
+	margin-top: 50px;
+}
+.home-button:hover{
+	animation: hurueru .1s infinite;
+}
+
+@keyframes hurueru {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}

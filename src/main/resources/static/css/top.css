@@ -32,6 +32,10 @@ access{
 	width: 10px;
 }
 
+.calender-head{
+	text-align: center;
+}
+
 #map, .access-table {
         width: 50%;
         margin-right: auto;

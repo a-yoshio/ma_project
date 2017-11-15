@@ -11,6 +11,8 @@
   <!-- GoogleMap ライブラリ -->
   <script th:async="async" th:defer="defer" th:src="@{https://maps.googleapis.com/maps/api/js?key=AIzaSyAa2mpxHnpHbOif2n7VQuAH7_TdP-03yU8&amp;callback=initMap}"></script>
   <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+  <!-- カレンダーライブラリ -->
+  <!-- TODO calendar機能の追加 -->
 </head>
 <body>
 	<header class="header">
@@ -27,7 +29,7 @@
 		<div class="detail">
 			<a th:href="@{'/'}">ホーム</a>
 			<a th:href="@{'/intro'}">院内紹介</a>
-			<a th:href="@{'/'}">診療時間</a>
+			<a th:href="@{'/schedule'}">診療時間</a>
 			<a th:href="@{'/'}">アクセス・駐車場</a>
 			<a th:href="@{'/'}">コラム</a>
 			<a th:href="@{'/'}">Twitter</a>

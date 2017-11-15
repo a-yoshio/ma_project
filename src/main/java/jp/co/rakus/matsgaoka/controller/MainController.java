@@ -24,4 +24,9 @@ public class MainController {
 	public String introductionPage() {
 		return "introduction";
 	}
+	
+	@RequestMapping("/schedule")
+	public String schedulePage() {
+		return "schedule";
+	}
 }

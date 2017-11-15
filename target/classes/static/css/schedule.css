@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.schedule{
+	text-align:　center;
+}
+.schedule-table{
+	border-collapse: collapse;
+	color: #555;
+	background-color: #ffffe6;
+	width: 99%;
+}
+
+.schedule-table, .schedule-th, .schedule-td{
+	border: 1px solid #d4e0ee;
+	color: #555;
+}
+
+.schedule-td,.schedule-th{
+	padding: 5px;
+	width: 10px;
+}
+
+.schedule-block{
+	margin-top: 30px;
+}
+.schedule-title{
+	font-size: 25px;
+	font-weight: lighter;
+	text-align: center; 
+}
+
+.calendar{
+	display: flex;
+	
+}
+
+.calender-table{
+	width: 30%;
+	height: 60px;
+	border: solid 2px #8fb347;
+	border-collapse:collapse;
+	margin: 0 10px;
+}
+
+#calender-title{
+	text-align: center;
+}
+
+.calender-head{
+	text-align: center;
+}
+
+.td-red{
+	background-color: #f08080;
+	margin: 0;
+	border: solid 0.5px #8fb347;
+}
+
+.td-black{
+	marin: 0;
+	border: solid 0.5px #8fb347;
+}
